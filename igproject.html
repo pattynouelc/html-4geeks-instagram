@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto 1: Post de Instagram</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        padding: 20px;
+      }
+      .imagen {
+        height: 700px;
+        width: 100%;
+      }
+      .padre {
+        width: 700px;
+        height: 1000px;
+        margin: auto;
+        border: 2px solid black;
+      }
+      .iconos {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .puntitos {
+        width: 50px;
+        height: 50px;
+      }
+      .negrita {
+        font-weight: bold;
+        margin: 0;
+      }
+      .logo {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+      .rigo {
+        margin: 0;
+      }
+      section {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="padre">
+      <div class="header">
+        <div class="logo">
+          <div>
+            <img
+              src="https://cdn.icon-icons.com/icons2/2428/PNG/512/html_black_logo_icon_147124.png"
+              alt=""
+              class="puntitos"
+            />
+          </div>
+          <div>
+            <p class="negrita">HTML5</p>
+            <p class="rigo">Patricia Nouel</p>
+          </div>
+        </div>
+        <div>
+          <img
+            src="https://cdn-icons-png.flaticon.com/512/61/61140.png"
+            alt=""
+            class="puntitos"
+          />
+        </div>
+      </div>
+      <div>
+        <img
+          src="https://blogskystorage.s3.amazonaws.com/2022/04/post_thumbnail-ecabbce7337b4a2cc181e8cc364951b9-1536x1024.jpeg"
+          alt=""
+          class="imagen"
+        />
+      </div>
+      <section>
+        <div class="iconos">
+          <div>
+            <img src="./Imagenes/heart.png" alt="" class="puntitos" />
+            <img src="./Imagenes/chat.png" alt="" class="puntitos" />
+            <img src="./Imagenes/send.png" alt="" class="puntitos" />
+          </div>
+          <div>
+            <img src="./Imagenes/save-instagram.png" alt="" class="puntitos" />
+          </div>
+        </div>
+        <div class="likes">
+          <p class="megustas">
+            A <strong>4Geeksacademycl, pattynouel16</strong> y
+            <strong>80 personas</strong> más les gusta
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+            distinctio suscipit libero, voluptatum recusandae iure incidunt quas
+            ea perferendis cupiditate a dignissimos, itaque, qui facere dicta ad
+            aliquid quae fugit.
+          </p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
